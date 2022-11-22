@@ -1,0 +1,268 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.btn {
+    border: 0px;
+    border-radius: 8px;
+    background-color: #029FAE;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.top-header {
+    height: 45px;
+    background-color: #272343;
+}
+
+.top-header-container {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-p {
+    font-size: 13px;
+    font-weight: 400;
+    list-style: 14px;
+    color:  #FFFFFF;
+    text-transform: capitalize;
+    opacity: 50%;
+}
+
+.info-shipping {
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+.top-header-list {
+    /* justify-self: flex-end; */
+    justify-content: space-around;
+    min-width: 202px;
+}
+
+.lang-img {
+    width: 7px;
+    height: 3.5px;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.help-p {
+    width: 65px;
+}
+
+.help-img {
+    margin-right: 3px;
+}
+
+.middle-header {
+    height: 84px;
+    background-color: #F0F2F3;
+}
+
+.south-header-part {
+    align-items: center;
+}
+
+.main-header-container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.header-logo-text {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.header-input {
+    min-width: 413px;
+    height: 44px;
+}
+
+.links-header-list {
+    min-width: 232px;
+    justify-content: space-around;
+}
+
+.links-header-item {
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+}
+
+.cart-link {
+    width: 120px;
+    justify-content: space-evenly;
+}
+
+.number {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    background-color: #007580;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.buttom-header {
+    height: 75px;
+}
+
+.buttom-header-container {
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.links-item:first-child {
+    min-width: 176px;
+    height: 47px;
+    outline: 1px solid #000;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links-list {
+    height: 47px;
+    min-width: 547px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-part {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-container {
+    height: 790px;
+    background-image: url(../image/Hero-BG.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.hero-desc {
+    padding-bottom: 10px;
+}
+
+.hero-title {
+    padding-bottom: 24px;
+}
+
+.header-left-part {
+    padding-top: 260px;
+    padding-left: 110px;
+    max-width: 741px;
+}
+
+.header-btn {
+    justify-content: center;
+    align-items: center;
+    width: 171px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.arrow-vector {
+    margin-left: 20px;
+}
+
+.hero-desc {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-size: 68px;
+    font-weight: 700;
+    min-width: 630px;
+}
+
+.header-right-part {
+    width: 100%;
+    background-image: url(../image/Header-BG.png);
+    background-repeat: no-repeat;
+    padding-top: 82px;
+}
+
+.header-image {
+    max-width: 475px;
+    max-height: 649px;
+}
+
+.features-header {
+    height: 150px;
+    background-color: #fff;
+    width: 1320px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 24px 100px rgba(22, 25, 50, 0.07);
+    border-radius: 12px;
+    left: 100px;
+    bottom: -300px;
+    position: absolute;
+}
+
+.header-fearues-image {
+    max-width: 50px;
+    height: 50px;
+}
+
+.features-header {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-features-list {
+    height: 50px;
+    width: 1060px;
+    justify-content: space-between;
+}
+
+.header-fearues-text-part {
+    margin-left: 15px;
+}
+
+.item-header {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item-desc {
+    font-size: 15px;
+    font-weight: 400;
+    color: #9A9CAA;
+}
