@@ -228,12 +228,9 @@ ul {
     height: 150px;
     background-color: #fff;
     width: 1320px;
-    /* border: 1px solid red; */
     box-shadow: 0px 24px 100px rgba(22, 25, 50, 0.07);
     border-radius: 12px;
-    left: 100px;
-    bottom: -300px;
-    position: absolute;
+    position: relative;
 }
 
 .header-fearues-image {
@@ -266,3 +263,12 @@ ul {
     font-weight: 400;
     color: #9A9CAA;
 }
+
+.header-brands-image {
+    height: 139px;
+}
+
+.header-brands-list {
+    justify-content: space-around;
+}
+
