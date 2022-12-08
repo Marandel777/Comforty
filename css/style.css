@@ -467,6 +467,7 @@ ul {
 .text-category-part:hover {
     height: 130px;
     margin-top: 294px;
+    cursor: pointer;
 }
 
 .category-ttile {
@@ -481,4 +482,102 @@ ul {
     font-size: 14px;
     line-height: 15px;
     color: #fff;
+}
+
+.our-products-container {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.our-products-container {
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-products-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+.our-product-list {
+    width: 493px;
+    justify-content: space-around;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #9A9CAA;
+}
+
+.our-product-item:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.our-product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 34px;
+}
+
+.our-product-grid-item {
+    width: 312px;
+    height: 377px;
+}
+
+.firstprod-item {
+    padding-top: 20px;
+    background-image: url(../image/firstProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.secondprod-item {
+    padding-top: 20px;
+    background-image: url(../image/secondProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.thirdprod-item {
+    background-image: url(../image/thirdProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 332px;
+}
+
+.fourprod-item {
+    background-image: url(../image/fourProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 332px;
+}
+
+.fiveprod-item {
+    padding-top: 20px;
+    background-image: url(../image/fiveProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.sixprod-item {
+    padding-top: 20px;
+    background-image: url(../image/sixProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.sevenprod-item {
+    background-image: url(../image/sevenProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 332px;
+}
+
+.eightprod-item {
+    background-image: url(../image/firstProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 332px;
 }
