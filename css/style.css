@@ -647,3 +647,52 @@ ul {
     font-weight: 400;
     color: #9A9CAA;
 }
+
+.added-container {
+    padding-top: 80px;
+}
+
+.heading-added-part {
+    justify-content: space-between;
+}
+
+.added-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.added-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    margin-bottom: 103px;
+}
+
+.first-added {
+    padding-top: 20px;
+    background-image: url(../image/firstProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.second-added {
+    padding-top: 20px;
+    background-image: url(../image/secondProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.third-added {
+    background-image: url(../image/thirdProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 332px;
+}
+
+.four-added {
+    background-image: url(../image/fourProduct.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 332px;
+}
